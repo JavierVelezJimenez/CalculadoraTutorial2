@@ -74,4 +74,8 @@ public class CalculadoraTutorial2 {
         double multiplicar=numero1*numero2;
         return multiplicar;
     }
+    public double dividir(){
+        double dividir=numero1/numero2;
+        return dividir;
+    }
 }
