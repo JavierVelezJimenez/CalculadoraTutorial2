@@ -70,4 +70,8 @@ public class CalculadoraTutorial2 {
         double resta = numero1 - numero2;
         return resta;
     }
+    public double multiplicar(){
+        double multiplicar=numero1*numero2;
+        return multiplicar;
+    }
 }
