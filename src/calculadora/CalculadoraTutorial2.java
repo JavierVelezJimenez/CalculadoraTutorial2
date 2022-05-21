@@ -75,7 +75,12 @@ public class CalculadoraTutorial2 {
         return multiplicar;
     }
     public double dividir(){
+        
         double dividir=numero1/numero2;
+        if(dividir%2==0){
+        double mod=numero1%numero2;
+        }
         return dividir;
     }
+    
 }
